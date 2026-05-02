@@ -20,6 +20,6 @@ if __name__ == "__main__":
 # FREEZE CODE END
     # TODO: Construct a Movie object!
     # TODO: Print the object!
-my_Movie= Movie(title, director, year)
-print(my_Movie)
+    my_Movie= Movie(title, director, year)
+    print(my_Movie)
     
