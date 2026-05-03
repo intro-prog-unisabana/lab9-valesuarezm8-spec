@@ -10,11 +10,11 @@ class Aircraft:
     def descend(self, feet):
         self.altitude -= feet
 # FREEZE CODE END
-model = input("Enter aircraft model:\n")
+model = input()
 plane = Aircraft(model)
 
 while True:
-    command = input("Enter command (A for ascent, D for descent, X to exit):\n")
+    command = input()
 
     if command == "X":
         break
@@ -24,7 +24,7 @@ while True:
     value = int(parts[1])
 
     if action == "A":
-        plane.climb(value)   # 🔥 CAMBIO AQUÍ
+        plane.climb(value)
     elif action == "D":
         plane.descend(value)
 
